@@ -1,0 +1,133 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header .logo {
+    float: left;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    float: right;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #f4d03f;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://source.unsplash.com/1600x900/?gaming');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .play-btn {
+    background-color: #f4d03f;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .play-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Events Section */
+  .events {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .events h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .events .event {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .events .event h3 {
+    font-size: 24px;
+  }
+  
+  .events .event p {
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
